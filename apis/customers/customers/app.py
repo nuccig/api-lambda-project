@@ -197,3 +197,7 @@ def get_company(name):
         return {"statusCode": 200, "body": matches[0]}
     else:
         return {"statusCode": 404, "body": f"Empresa {name} não encontrada."}
+
+
+# chalice deploy para deployar a aplicação
+# chalice local para rodar a aplicação localmente
